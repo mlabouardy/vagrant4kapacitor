@@ -1,1 +1,6 @@
 
+stream
+  |from()
+    .meansurement('docker_container_mem')
+  |alert()
+    .crit(lambda: )
